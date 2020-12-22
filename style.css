@@ -1,0 +1,65 @@
+#box{
+     background-color: blue;
+     margin-left: 200px;
+     width: 1000px;
+     height: 500px;
+}
+#header{
+    background-color: brown ;
+    padding-left: 250px;
+    font-size: larger;
+    color: cornsilk;
+}
+.temp{
+    font-size: 35px;
+}
+#cel{
+    width: 300px;
+    height: 30px;
+    margin-left: 40px;
+    font-size: 30px;
+}
+#display{
+    width: 300px;
+    height: 30px;
+    margin-left: 40px;
+    font-size: 30px;
+}
+#show{
+    width: 300px;
+    height: 30px;
+    margin-left: 40px;
+    font-size: 30px;
+}
+#faren{
+    width: 300px;
+    height: 30px;
+    margin-left: 40px;
+    font-size: 30px;
+}
+#far{
+    margin-left: 35px;
+}
+#button{
+    padding: 10px;
+    margin-left: 120px;
+    background-color: darkgrey;
+}
+#d-button{
+    padding: 10px;
+    margin-left: 120px;
+    background-color: darkgrey;
+}
+.body{
+    display: flex;
+    
+}
+#cels{
+    margin-left: 75px;
+}
+
+
+
+
+
+

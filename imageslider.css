@@ -1,0 +1,12 @@
+body{
+    background-color: grey;
+    overflow: hidden;
+}
+img{
+    width: 500px;
+    height: 200px;
+    display: block;
+}
+.banner{
+overflow: hidden;
+}

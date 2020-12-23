@@ -1,0 +1,24 @@
+body{
+    background-image: radial-gradient(violet, yellow);
+}
+.box{
+    width: 400px;
+    height: 80px;
+    background-color: cornsilk;
+    margin-left: 400px;
+    margin-top: 200px;
+}
+#time{
+    display: flex;
+    font-size: 40px;
+    padding-left: 60px;
+    padding-bottom: 40px;
+
+}
+
+
+
+
+
+
+

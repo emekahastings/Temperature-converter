@@ -1,0 +1,57 @@
+#red{
+     background-color: red;
+    width: 100px;
+    height: 100px;
+    border: 0px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+#blue{
+    background-color: blue;
+   width: 100px;
+   height: 100px;
+   border: 0px;
+   border-radius: 50%;
+   margin-left: 50px;
+   cursor: pointer;
+}
+#green{
+    background-color: green;
+   width: 100px;
+   height: 100px;
+   border: 0px;
+   border-radius: 50%;
+   cursor: pointer;
+}
+#yellow{
+    background-color: yellow;
+   width: 100px;
+   height: 100px;
+   border: 0px;
+   border-radius: 50%;
+   cursor: pointer;
+   margin-left: 50px;
+   cursor: pointer;
+}
+#colors{
+    margin-left: 500px;
+    margin-top: 100px;
+}
+#first{
+    display: flex;
+    
+}
+#second{
+    display: flex;
+    margin-top: 40px;
+  
+}
+
+
+
+
+
+
+
+
+

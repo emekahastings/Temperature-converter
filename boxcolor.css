@@ -1,0 +1,53 @@
+#background{
+    width: 500px;
+    height: 500px;
+    background-color: blanchedalmond;
+    box-sizing: 2px, 2px, 2px, 2px;
+    box-shadow: crimson;
+}
+button{
+    
+    margin-left: 30px;
+    padding: 10px;
+    background-color: rgb(125, 206, 233);
+    margin-top: 20px;
+    cursor: pointer;
+}
+body{
+  margin-left: 30%;
+  
+    /* margin-top: 80px; */
+}
+b{
+    font-size: 50px;
+padding-bottom: 200px;
+    padding: 200px;
+    padding-top: 200px;
+}
+
+#background{
+    animation-name: box;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 1;
+    animation-timing-function: ease;
+    animation-direction: alternate-reverse;
+
+}
+
+@keyframes box{
+    100%{ background-color: red;}
+    80%{ background-color: blue;}
+    60%{background-color: green;}
+    40%{background-color: yellow;}
+    20%{background-color:palevioletred;}
+    0%{transform: rotateZ(360deg);} 
+      /* 100%{  background-color: rgb(125, 206, 233); } */
+
+}
+
+
+
+
+
+

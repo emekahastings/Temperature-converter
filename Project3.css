@@ -1,0 +1,127 @@
+body{
+    background-color: rgb(247, 118, 118);
+    
+}
+.container{
+    width: 600px;
+    height: 500px;
+    background-color: rgb(177, 152, 119);
+    border: red dotted 1px;
+    margin-left: 400px;
+    margin-bottom: 600px;
+    
+}
+.caption{
+    font-weight: 700;
+    font-size: 30px;
+    text-align: center;
+}
+.image1{
+    width: 200px;
+    height: 200px;
+    margin-left: 160px;
+    border: black dotted 3px;
+}
+button{
+    background-color: rgb(243, 222, 136);
+    padding: 10px;
+    margin-left: 30px;
+}
+.prev, .next{
+    margin-left: 140px;
+}
+
+#name{
+    font-size: 35px;
+    font-weight: 700;
+    padding-left: 210px;
+}
+#country{
+    font-size: 25px;
+    font-weight: 650px;
+    padding-left: 220px;
+}
+#desc{
+    font-size: larger;
+    font: serif;
+    padding-left: 100px;
+}
+@media (max-width: 700px){
+
+    body{
+        background-color: rgb(197, 243, 29);
+        
+    }
+    .container{
+        width: 600px;
+        height: 500px;
+        background-color: rgb(134, 119, 177);
+        border: red dotted 1px;
+        margin-left: 400px;
+        margin-bottom: 600px;
+        
+    }
+    .caption{
+        font-weight: 700;
+        font-size: 30px;
+        text-align: center;
+    }
+    .image1{
+        width: 200px;
+        height: 200px;
+        margin-left: 160px;
+        border: black dotted 3px;
+    }
+    button{
+        background-color: rgb(243, 222, 136);
+        padding: 10px;
+        margin-left: 30px;
+    }
+    .prev, .next{
+        margin-left: 140px;
+    }
+    
+    #name{
+        font-size: 35px;
+        font-weight: 700;
+        padding-left: 210px;
+    }
+    #country{
+        font-size: 25px;
+        font-weight: 650px;
+        padding-left: 220px;
+    }
+    #desc{
+        font-size: larger;
+        font: serif;
+        padding-left: 100px;
+}
+
+
+
+button:hover{
+    animation-name: effect;
+    animation-duration: 1s;
+    animation-direction: alternate-reverse;
+}
+
+@keyframes effect{
+   from{ transform: rotateY(0deg); background-color: cornsilk; }
+   to{ transform: rotateY(180deg); background-color: crimson;}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
